@@ -3,16 +3,21 @@
 	box-sizing: border-box;
 }*/
 
+body {
+	font-family: 'Noto Serif', serif;
+}
+
 .container {
-	width: 100%;
+	margin: auto;
 	height: 95vh;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 
-h1 { 
+.header {
 	font-family: 'Source Sans Pro', sans-serif;
 }
