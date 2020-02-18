@@ -52,6 +52,10 @@ section > .header.sub-header {
 	font-size: 1.1em;
 }
 
+li {
+	margin-bottom: 0.3em;
+}
+
 .btn-icon {
 	color: #424242;
 }
@@ -61,4 +65,36 @@ section > .header.sub-header {
 
 .cursor-pointer {
 	cursor: pointer;
+}
+
+footer {
+	overflow: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 1.5em;
+}
+
+.footer-left {
+	float: left;
+	bottom: 0;
+	height: 100%;
+}
+
+.footer-right {
+	float: right;
+	display: inline-block;
+}
+
+.it-me {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.3em;
+}
+
+.flip-180 {
+	-moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    transform: scale(-1, 1);
 }
