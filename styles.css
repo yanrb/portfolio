@@ -32,6 +32,7 @@ body {
 /* ===== FONT SIZES ===== */
 article > .title {
 	font-size: 2em;
+	margin-bottom: 48px;
 }
 
 section > .title {
@@ -46,11 +47,11 @@ section > .date {
 
 /* ===== VERTICAL SPACING ===== */
 section {
-	margin-bottom: 32px;
+	margin-bottom: 48px;
 }
 
 article {
-	margin-bottom: 64px;
+	margin-bottom: 128px;
 }
 
 li {
